@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Bluetooth/Wi-Fi Icon -->
+        <ImageView
+            android:id="@+id/featureIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/img_4"
+            android:contentDescription="Bluetooth and Wi-Fi Icon" />  <!-- Corrected content description -->
+
+        <!-- Feature Title -->
+        <TextView
+            android:id="@+id/featureTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth/Wi-Fi Connectivity"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:gravity="center"
+            android:paddingBottom="10dp" />
+
+        <!-- Feature Description -->
+        <TextView
+            android:id="@+id/featureDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easily connect to your yoga mat for real-time feedback."
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <!-- Button to navigate to the next slide -->
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#00796B"
+            android:textColor="#FFFFFF"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="32dp"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

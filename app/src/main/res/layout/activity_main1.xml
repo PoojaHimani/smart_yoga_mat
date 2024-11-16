@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Yoga Mat Image -->
+        <ImageView
+            android:id="@+id/yogaMatImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_3" />
+
+        <!-- Overview Text -->
+        <TextView
+            android:id="@+id/overviewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the Smart Yoga Mat!"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:gravity="center"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:id="@+id/overviewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experience yoga like never before with real-time feedback, personalized sessions, and analytics to enhance your practice."
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:gravity="center"
+            android:paddingBottom="20dp" />
+
+        <!-- Button to navigate to the next slide (or feature) -->
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#00796B"
+            android:textColor="#FFFFFF"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="32dp"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

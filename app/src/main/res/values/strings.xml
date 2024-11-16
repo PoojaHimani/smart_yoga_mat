@@ -1,0 +1,27 @@
+<resources>
+    <!-- Existing Strings -->
+    <string name="app_name">Smart Yoga Mat</string>
+
+    <!-- New Strings -->
+    <string name="welcome_message">Welcome to the Smart Yoga Mat!</string>
+    <string name="connect_to_mat">Connect to Mat</string>
+    <string name="bluetooth_connectivity">Bluetooth/Wi-Fi Connectivity</string>
+    <string name="performance_analytics">Performance Analytics</string>
+    <string name="sound_notifications">Sound and Notifications</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connected">Connected to Yoga Mat!</string>
+    <string name="disconnected">Disconnected. Connect to the Yoga Mat.</string>
+    <string name="disconnect">Disconnect</string>
+        <string name="welcome_title">Welcome to the Smart Yoga Mat!</string>
+        <string name="welcome_description">Experience yoga like never before with real-time feedback, personalized sessions, and analytics to enhance your practice.</string>
+        <string name="connect_button">Connect to Mat</string>
+        <string name="bluetooth_feature">Bluetooth/Wi-Fi Connectivity</string>
+        <string name="bluetooth_description">Easily connect to your yoga mat for real-time feedback.</string>
+        <string name="analytics_feature">Performance Analytics</string>
+        <string name="analytics_description">Track your progress and improve your practice over time.</string>
+        <string name="notifications_feature">Sound and Notifications</string>
+        <string name="notifications_description">Enjoy guided sessions and feedback through sound notifications.</string>
+
+    </resources>
+
+
